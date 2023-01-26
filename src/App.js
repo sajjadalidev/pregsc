@@ -1,10 +1,12 @@
 import "./Styles/App.css";
-import { SearchConsoleTable } from "./Components/searchConsoleTable";
+import { SecondTable } from "./Components/secondTable";
+import { DateRangePicker } from "./Components/dateRangePicker";
 
 function App() {
   return (
     <div className="App">
-      <SearchConsoleTable />
+      <DateRangePicker />
+      <SecondTable />
     </div>
   );
 }
